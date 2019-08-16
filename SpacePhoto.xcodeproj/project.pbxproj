@@ -14,6 +14,9 @@
 		0C75BFA72307556600513481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C75BFA52307556600513481 /* LaunchScreen.storyboard */; };
 		0C75BFB22307556700513481 /* SpacePhotoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C75BFB12307556700513481 /* SpacePhotoTests.swift */; };
 		0C75BFBD2307556700513481 /* SpacePhotoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C75BFBC2307556700513481 /* SpacePhotoUITests.swift */; };
+		0C75BFCB2307581000513481 /* PhotoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C75BFCA2307581000513481 /* PhotoInfo.swift */; };
+		0C75BFCD2307598100513481 /* URL+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C75BFCC2307598100513481 /* URL+Helpers.swift */; };
+		0C75BFCF23075A3C00513481 /* PhotoInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C75BFCE23075A3C00513481 /* PhotoInfoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		0C75BFB82307556700513481 /* SpacePhotoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpacePhotoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C75BFBC2307556700513481 /* SpacePhotoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacePhotoUITests.swift; sourceTree = "<group>"; };
 		0C75BFBE2307556700513481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C75BFCA2307581000513481 /* PhotoInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfo.swift; sourceTree = "<group>"; };
+		0C75BFCC2307598100513481 /* URL+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Helpers.swift"; sourceTree = "<group>"; };
+		0C75BFCE23075A3C00513481 /* PhotoInfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoInfoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				0C75BF9C2307555800513481 /* AppDelegate.swift */,
 				0C75BF9E2307555800513481 /* ViewController.swift */,
 				0C75BFA02307555800513481 /* Main.storyboard */,
+				0C75BFCA2307581000513481 /* PhotoInfo.swift */,
+				0C75BFCC2307598100513481 /* URL+Helpers.swift */,
+				0C75BFCE23075A3C00513481 /* PhotoInfoController.swift */,
 				0C75BFA32307556600513481 /* Assets.xcassets */,
 				0C75BFA52307556600513481 /* LaunchScreen.storyboard */,
 				0C75BFA82307556600513481 /* Info.plist */,
@@ -256,6 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C75BFCB2307581000513481 /* PhotoInfo.swift in Sources */,
+				0C75BFCF23075A3C00513481 /* PhotoInfoController.swift in Sources */,
+				0C75BFCD2307598100513481 /* URL+Helpers.swift in Sources */,
 				0C75BF9F2307555800513481 /* ViewController.swift in Sources */,
 				0C75BF9D2307555800513481 /* AppDelegate.swift in Sources */,
 			);
